@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Raleway;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        border-left: 4px solid #f9f9f9;
+        border-right: 4px solid #f9f9f9;
+        padding: 1rem 2rem;
+    }
+
+    .IntroWrapper {
+        display: flex;
+        gap: 0 20px;
+        flex: 1 1 auto;
+        align-items: center;
+    }
+
+    .MoneyShot
+    .IntroText {
+        margin: 0;
+        flex: 1 1 50%;
+    }
+
+    .MoneyShotImg {
+        filter: drop-shadow(0 0 20px #0008);
+        border: 0;
+    }
+
+    .IntroText {
+        padding: 0.5rem;
+        font-size: 2.5rem;
+        text-align: left;
+        position: relative;
+    }
+
+    .Ingredients {
+        font-size: 0.9rem;
+        float: right;
+        padding: 1rem;
+        margin: 0 0 0.5rem 1rem;
+        border-radius: 3px;
+        background-color: #ffffdf;
+        border: 9px solid #debb71;
+    }
+    
+    .Ingredients h3 {
+        margin: 0;
+    }
+}
