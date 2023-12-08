@@ -2,6 +2,8 @@
 
 body {
     font-family: Raleway;
+    width: 80%;
+    margin: auto;
 }
 
 * {
@@ -14,8 +16,8 @@ img {
 
 @media screen and (min-width: 800px) {
     body {
-        border-left: 4px solid #f9f9f9;
-        border-right: 4px solid #f9f9f9;
+        /* border-left: 4px solid #f9f9f9;
+        border-right: 4px solid #f9f9f9; */
         padding: 1rem 2rem;
     }
 
